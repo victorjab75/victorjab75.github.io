@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'none'; base-uri 'none'; form-action 'none'; object-src 'none'; connect-src 'none'; style-src 'self'; script-src 'self'">
+  <title>Itinéraire partagé · Driver Society</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main class="card">
+    <div class="brand" aria-label="Driver Society">
+      <span class="brand-mark" aria-hidden="true">DS</span>
+      <span>DRIVER SOCIETY</span>
+    </div>
+    <div class="route-sign" aria-hidden="true"><span></span><span></span><span></span></div>
+    <h1 id="route-heading">Un itinéraire vous attend</h1>
+    <p id="message">Ouvrez ce lien avec Driver Society Navigation pour retrouver le tracé.</p>
+    <a id="open-app" class="button" hidden>Ouvrir l’application</a>
+    <p class="note">Ouvrez l’application pour retrouver les étapes et lancer le guidage. Toute personne qui possède le lien peut accéder au tracé ; les liens courts peuvent expirer ou être révoqués.</p>
+    <noscript><p class="error">Activez JavaScript pour ouvrir ce lien dans l’application.</p></noscript>
+  </main>
+</body>
+</html>
