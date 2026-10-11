@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "N539C55T37.com.driversociety.navigation.reprise",
+        "paths": ["/partage/", "/partage/*", "/route.html"]
+      }
+    ]
+  }
+}
