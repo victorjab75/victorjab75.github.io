@@ -37,16 +37,8 @@ body {
   letter-spacing: .22em;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 34px;
-  height: 34px;
-  border: 1px solid #f7f7f8;
-  border-radius: 8px;
-  font-size: 11px;
-  letter-spacing: -.05em;
-}
+.brand-mark { width: 64px; height: 64px; object-fit: contain; }
+.brand small { display: block; margin-top: 6px; font-size: 9px; font-weight: 500; letter-spacing: .3em; color: #b9bac2; }
 
 .route-sign {
   display: flex;
